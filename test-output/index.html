@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Automation\Workspace\HybridFW\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,  12 skipped,  24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="Loginbutton">Loginbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="confirmpassword">confirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterEmail">enterEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterfn">enterfn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterln">enterln</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterpwd">enterpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="getstarted">getstarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validconfirmpassword">validconfirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterEmail">validenterEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterfn">validenterfn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterln">validenterln</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterpwd">validenterpwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="Loginbutton">Loginbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="Loginbutton">Loginbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="confirmpassword">confirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="confirmpassword">confirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterEmail(abc@gmail.com)">enterEmail(abc@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterEmail(abc@gmail.com)">enterEmail(abc@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterfn(abc)">enterfn(abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterfn(abc)">enterfn(abc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterln(xyz)">enterln(xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterln(xyz)">enterln(xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterpwd(test@123)">enterpwd(test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="enterpwd(test@123)">enterpwd(test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="getstarted">getstarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="getstarted">getstarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validconfirmpassword">validconfirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validconfirmpassword">validconfirmpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterEmail(pooja@gmail.com)">validenterEmail(pooja@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterEmail(pooja@gmail.com)">validenterEmail(pooja@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterfn(Pooja)">validenterfn(Pooja)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterfn(Pooja)">validenterfn(Pooja)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterln(Kapoor)">validenterln(Kapoor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterln(Kapoor)">validenterln(Kapoor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterpwd(abc@123)">validenterpwd(abc@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.LoginTest" class="method navigator-link" hash-for-method="validenterpwd(abc@123)">validenterpwd(abc@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginbutton">
+                  </a> <!-- Loginbutton -->
+                  <span class="method-name">Loginbutton</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 102
+Current browser version is 100.0.1185.50 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BIMWIZE3&apos;, ip: &apos;10.0.0.219&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperties::unpack [0x00007FF68B4D94C2+21842]
+	Microsoft::Applications::Events::time_ticks_t::operator= [0x00007FF68B44BE22+416082]
+	Ordinal0 [0x00007FF68ADB30E5+667877]
+	Ordinal0 [0x00007FF68ADDDF74+843636]
+	Ordinal0 [0x00007FF68ADD9484+824452]
+	Ordinal0 [0x00007FF68ADD4D5E+806238]
+	Ordinal0 [0x00007FF68AE0F736+1046326]
+	Ordinal0 [0x00007FF68AE095F3+1021427]
+	Ordinal0 [0x00007FF68ADE05A7+853415]
+	Ordinal0 [0x00007FF68ADE1A78+858744]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF68B2B0978+89576]
+	Microsoft::Applications::Events::FromLogConfiguration [0x00007FF68B0603A9+75417]
+	Microsoft::Applications::Events::FromLogConfiguration [0x00007FF68B06007A+74602]
+	Microsoft::Applications::Events::FromLogConfiguration [0x00007FF68B062A0C+85244]
+	Microsoft::Applications::Events::FromLogConfiguration [0x00007FF68B060A76+77158]
+	Ordinal0 [0x00007FF68AEF101C+1970204]
+	Microsoft::Applications::Events::time_ticks_t::operator= [0x00007FF68B4545F4+450852]
+	Microsoft::Applications::Events::time_ticks_t::operator= [0x00007FF68B45474D+451197]
+	Ordinal0 [0x00007FF68AF008A2+2033826]
+	BaseThreadInitThunk [0x00007FFA6EFF54E0+16]
+	RtlUserThreadStart [0x00007FFA6FE6485B+43]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.base.DriverManager.launch(DriverManager.java:27)
+	at com.test.Base.beforeTest(Base.java:36)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmpassword">
+                  </a> <!-- confirmpassword -->
+                  <span class="method-name">confirmpassword</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.confirmpassword() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.enterpwd() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail">
+                  </a> <!-- enterEmail -->
+                  <span class="method-name">enterEmail</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.enterEmail() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.getstarted() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterfn">
+                  </a> <!-- enterfn -->
+                  <span class="method-name">enterfn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.enterfn() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.enterEmail() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterln">
+                  </a> <!-- enterln -->
+                  <span class="method-name">enterln</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.enterln() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.enterfn() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterpwd">
+                  </a> <!-- enterpwd -->
+                  <span class="method-name">enterpwd</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.enterpwd() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.enterln() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getstarted">
+                  </a> <!-- getstarted -->
+                  <span class="method-name">getstarted</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.getstarted() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.Loginbutton() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validconfirmpassword">
+                  </a> <!-- validconfirmpassword -->
+                  <span class="method-name">validconfirmpassword</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.validconfirmpassword() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.validenterpwd() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterEmail">
+                  </a> <!-- validenterEmail -->
+                  <span class="method-name">validenterEmail</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.validenterEmail() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.confirmpassword() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterfn">
+                  </a> <!-- validenterfn -->
+                  <span class="method-name">validenterfn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.validenterfn() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.validenterEmail() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterln">
+                  </a> <!-- validenterln -->
+                  <span class="method-name">validenterln</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.validenterln() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.validenterfn() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterpwd">
+                  </a> <!-- validenterpwd -->
+                  <span class="method-name">validenterpwd</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.test.LoginTest.validenterpwd() on instance com.test.LoginTest@5876a9af depends on not successfully finished methods 
+[com.test.LoginTest.validenterln() on instance com.test.LoginTest@5876a9af]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginbutton">
+                  </a> <!-- Loginbutton -->
+                  <span class="method-name">Loginbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Loginbutton">
+                  </a> <!-- Loginbutton -->
+                  <span class="method-name">Loginbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmpassword">
+                  </a> <!-- confirmpassword -->
+                  <span class="method-name">confirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmpassword">
+                  </a> <!-- confirmpassword -->
+                  <span class="method-name">confirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail(abc@gmail.com)">
+                  </a> <!-- enterEmail(abc@gmail.com) -->
+                  <span class="method-name">enterEmail</span>
+                  <span class="parameters">(abc@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail(abc@gmail.com)">
+                  </a> <!-- enterEmail(abc@gmail.com) -->
+                  <span class="method-name">enterEmail</span>
+                  <span class="parameters">(abc@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterfn(abc)">
+                  </a> <!-- enterfn(abc) -->
+                  <span class="method-name">enterfn</span>
+                  <span class="parameters">(abc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterfn(abc)">
+                  </a> <!-- enterfn(abc) -->
+                  <span class="method-name">enterfn</span>
+                  <span class="parameters">(abc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterln(xyz)">
+                  </a> <!-- enterln(xyz) -->
+                  <span class="method-name">enterln</span>
+                  <span class="parameters">(xyz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterln(xyz)">
+                  </a> <!-- enterln(xyz) -->
+                  <span class="method-name">enterln</span>
+                  <span class="parameters">(xyz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterpwd(test@123)">
+                  </a> <!-- enterpwd(test@123) -->
+                  <span class="method-name">enterpwd</span>
+                  <span class="parameters">(test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterpwd(test@123)">
+                  </a> <!-- enterpwd(test@123) -->
+                  <span class="method-name">enterpwd</span>
+                  <span class="parameters">(test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getstarted">
+                  </a> <!-- getstarted -->
+                  <span class="method-name">getstarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getstarted">
+                  </a> <!-- getstarted -->
+                  <span class="method-name">getstarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validconfirmpassword">
+                  </a> <!-- validconfirmpassword -->
+                  <span class="method-name">validconfirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validconfirmpassword">
+                  </a> <!-- validconfirmpassword -->
+                  <span class="method-name">validconfirmpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterEmail(pooja@gmail.com)">
+                  </a> <!-- validenterEmail(pooja@gmail.com) -->
+                  <span class="method-name">validenterEmail</span>
+                  <span class="parameters">(pooja@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterEmail(pooja@gmail.com)">
+                  </a> <!-- validenterEmail(pooja@gmail.com) -->
+                  <span class="method-name">validenterEmail</span>
+                  <span class="parameters">(pooja@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterfn(Pooja)">
+                  </a> <!-- validenterfn(Pooja) -->
+                  <span class="method-name">validenterfn</span>
+                  <span class="parameters">(Pooja)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterfn(Pooja)">
+                  </a> <!-- validenterfn(Pooja) -->
+                  <span class="method-name">validenterfn</span>
+                  <span class="parameters">(Pooja)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterln(Kapoor)">
+                  </a> <!-- validenterln(Kapoor) -->
+                  <span class="method-name">validenterln</span>
+                  <span class="parameters">(Kapoor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterln(Kapoor)">
+                  </a> <!-- validenterln(Kapoor) -->
+                  <span class="method-name">validenterln</span>
+                  <span class="parameters">(Kapoor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterpwd(abc@123)">
+                  </a> <!-- validenterpwd(abc@123) -->
+                  <span class="method-name">validenterpwd</span>
+                  <span class="parameters">(abc@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validenterpwd(abc@123)">
+                  </a> <!-- validenterpwd(abc@123) -->
+                  <span class="method-name">validenterpwd</span>
+                  <span class="parameters">(abc@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Automation\Workspace\HybridFW\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;firstName&quot; value=&quot;abc&quot;/&gt;
+  &lt;parameter name=&quot;lastName&quot; value=&quot;xyz&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;test@123&quot;/&gt;
+  &lt;parameter name=&quot;validpassword&quot; value=&quot;abc@123&quot;/&gt;
+  &lt;parameter name=&quot;validfirstName&quot; value=&quot;Pooja&quot;/&gt;
+  &lt;parameter name=&quot;validlastName&quot; value=&quot;Kapoor&quot;/&gt;
+  &lt;parameter name=&quot;validemail&quot; value=&quot;pooja@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;email&quot; value=&quot;abc@gmail.com&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.shopify.ca&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Reg CHorme&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.Base&quot;/&gt;
+      &lt;class name=&quot;com.test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reg CHorme --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Reg FF&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.Base&quot;/&gt;
+      &lt;class name=&quot;com.test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reg FF --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Reg Edge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.Base&quot;/&gt;
+      &lt;class name=&quot;com.test.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reg Edge --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Reg CHorme (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Reg FF (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Reg Edge (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Loginbutton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getstarted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Loginbutton')
+data.setCell(0, 2, 'com.test.LoginTest')
+data.setCell(0, 3, 5592);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Loginbutton')
+data.setCell(1, 2, 'com.test.LoginTest')
+data.setCell(1, 3, 5386);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getstarted')
+data.setCell(2, 2, 'com.test.LoginTest')
+data.setCell(2, 3, 3826);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getstarted')
+data.setCell(3, 2, 'com.test.LoginTest')
+data.setCell(3, 3, 3206);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'enterEmail')
+data.setCell(4, 2, 'com.test.LoginTest')
+data.setCell(4, 3, 153);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'enterpwd')
+data.setCell(5, 2, 'com.test.LoginTest')
+data.setCell(5, 3, 152);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'confirmpassword')
+data.setCell(6, 2, 'com.test.LoginTest')
+data.setCell(6, 3, 145);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validenterEmail')
+data.setCell(7, 2, 'com.test.LoginTest')
+data.setCell(7, 3, 135);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'enterfn')
+data.setCell(8, 2, 'com.test.LoginTest')
+data.setCell(8, 3, 129);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterln')
+data.setCell(9, 2, 'com.test.LoginTest')
+data.setCell(9, 3, 127);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validenterpwd')
+data.setCell(10, 2, 'com.test.LoginTest')
+data.setCell(10, 3, 122);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validenterln')
+data.setCell(11, 2, 'com.test.LoginTest')
+data.setCell(11, 3, 116);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validenterfn')
+data.setCell(12, 2, 'com.test.LoginTest')
+data.setCell(12, 3, 116);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validenterfn')
+data.setCell(13, 2, 'com.test.LoginTest')
+data.setCell(13, 3, 115);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterln')
+data.setCell(14, 2, 'com.test.LoginTest')
+data.setCell(14, 3, 107);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validconfirmpassword')
+data.setCell(15, 2, 'com.test.LoginTest')
+data.setCell(15, 3, 105);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'enterpwd')
+data.setCell(16, 2, 'com.test.LoginTest')
+data.setCell(16, 3, 93);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validenterpwd')
+data.setCell(17, 2, 'com.test.LoginTest')
+data.setCell(17, 3, 91);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'enterEmail')
+data.setCell(18, 2, 'com.test.LoginTest')
+data.setCell(18, 3, 88);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validenterln')
+data.setCell(19, 2, 'com.test.LoginTest')
+data.setCell(19, 3, 87);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validenterEmail')
+data.setCell(20, 2, 'com.test.LoginTest')
+data.setCell(20, 3, 85);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'enterfn')
+data.setCell(21, 2, 'com.test.LoginTest')
+data.setCell(21, 3, 83);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'confirmpassword')
+data.setCell(22, 2, 'com.test.LoginTest')
+data.setCell(22, 3, 49);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validconfirmpassword')
+data.setCell(23, 2, 'com.test.LoginTest')
+data.setCell(23, 3, 34);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'getstarted')
+data.setCell(24, 2, 'com.test.LoginTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validenterfn')
+data.setCell(25, 2, 'com.test.LoginTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validenterpwd')
+data.setCell(26, 2, 'com.test.LoginTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'enterln')
+data.setCell(27, 2, 'com.test.LoginTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'enterEmail')
+data.setCell(28, 2, 'com.test.LoginTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'enterpwd')
+data.setCell(29, 2, 'com.test.LoginTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Loginbutton')
+data.setCell(30, 2, 'com.test.LoginTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validenterEmail')
+data.setCell(31, 2, 'com.test.LoginTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validenterln')
+data.setCell(32, 2, 'com.test.LoginTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validconfirmpassword')
+data.setCell(33, 2, 'com.test.LoginTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'confirmpassword')
+data.setCell(34, 2, 'com.test.LoginTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'enterfn')
+data.setCell(35, 2, 'com.test.LoginTest')
+data.setCell(35, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterln(xyz)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">lastname id is passed >> xyz</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterpwd(test@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">passwrod id is passed >> test@123</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterln(Kapoor)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid lastname id is passed >> Kapoor</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterfn(abc)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Firstname id is passed >> abc</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterpwd(abc@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid passwrod id is passed >> abc@123</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterEmail(pooja@gmail.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid Email id is passed >> pooja@gmail.com</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterfn(Pooja)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid Firstname id is passed >> Pooja</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterEmail(abc@gmail.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Email id is passed >> abc@gmail.com</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterln(Kapoor)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid lastname id is passed >> Kapoor</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterpwd(test@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">passwrod id is passed >> test@123</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterEmail(pooja@gmail.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid Email id is passed >> pooja@gmail.com</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterln(xyz)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">lastname id is passed >> xyz</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterfn(abc)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Firstname id is passed >> abc</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterfn(Pooja)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid Firstname id is passed >> Pooja</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validenterpwd(abc@123)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">valid passwrod id is passed >> abc@123</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">enterEmail(abc@gmail.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Email id is passed >> abc@gmail.com</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome, https://www.shopify.ca)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">2914 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Loginbutton</span>
+                <span class="method-start">2988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getstarted</span>
+                <span class="method-start">8384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail(abc@gmail.com)</span>
+                <span class="method-start">11592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterfn(abc)</span>
+                <span class="method-start">11747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterln(xyz)</span>
+                <span class="method-start">11879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterpwd(test@123)</span>
+                <span class="method-start">12007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmpassword</span>
+                <span class="method-start">12161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterEmail(pooja@gmail.com)</span>
+                <span class="method-start">12308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterfn(Pooja)</span>
+                <span class="method-start">12445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterln(Kapoor)</span>
+                <span class="method-start">12562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterpwd(abc@123)</span>
+                <span class="method-start">12680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validconfirmpassword</span>
+                <span class="method-start">12805 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(firefox, https://www.shopify.ca)</span>
+                <span class="method-start">12994 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">18582 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Loginbutton</span>
+                <span class="method-start">18584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getstarted</span>
+                <span class="method-start">24178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail(abc@gmail.com)</span>
+                <span class="method-start">28006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterfn(abc)</span>
+                <span class="method-start">28096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterln(xyz)</span>
+                <span class="method-start">28181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterpwd(test@123)</span>
+                <span class="method-start">28290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmpassword</span>
+                <span class="method-start">28385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterEmail(pooja@gmail.com)</span>
+                <span class="method-start">28437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterfn(Pooja)</span>
+                <span class="method-start">28523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterln(Kapoor)</span>
+                <span class="method-start">28641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterpwd(abc@123)</span>
+                <span class="method-start">28730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validconfirmpassword</span>
+                <span class="method-start">28822 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeTest(Edge, https://www.shopify.ca)</span>
+                <span class="method-start">28867 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">32788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Loginbutton</span>
+                <span class="method-start">32792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getstarted</span>
+                <span class="method-start">32800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail</span>
+                <span class="method-start">32804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterfn</span>
+                <span class="method-start">32809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterln</span>
+                <span class="method-start">32813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterpwd</span>
+                <span class="method-start">32817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmpassword</span>
+                <span class="method-start">32821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterEmail</span>
+                <span class="method-start">32826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterfn</span>
+                <span class="method-start">32829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterln</span>
+                <span class="method-start">32834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validenterpwd</span>
+                <span class="method-start">32837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validconfirmpassword</span>
+                <span class="method-start">32841 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">32892 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

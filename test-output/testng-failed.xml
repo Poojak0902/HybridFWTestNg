@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="firstName" value="abc"/>
+  <parameter name="lastName" value="xyz"/>
+  <parameter name="password" value="test@123"/>
+  <parameter name="validpassword" value="abc@123"/>
+  <parameter name="validfirstName" value="Pooja"/>
+  <parameter name="validlastName" value="Kapoor"/>
+  <parameter name="validemail" value="pooja@gmail.com"/>
+  <parameter name="email" value="abc@gmail.com"/>
+  <parameter name="url" value="https://www.shopify.ca"/>
+  <test thread-count="5" name="Reg Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.test.Base">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.test.Base -->
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="enterEmail"/>
+          <include name="validenterEmail"/>
+          <include name="beforeclass"/>
+          <include name="Loginbutton"/>
+          <include name="validenterpwd"/>
+          <include name="enterln"/>
+          <include name="validenterfn"/>
+          <include name="validconfirmpassword"/>
+          <include name="enterpwd"/>
+          <include name="confirmpassword"/>
+          <include name="enterfn"/>
+          <include name="afterSuite"/>
+          <include name="getstarted"/>
+          <include name="validenterln"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+    </classes>
+  </test> <!-- Reg Edge(failed) -->
+</suite> <!-- Failed suite [Suite] -->

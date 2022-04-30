@@ -1,0 +1,19 @@
+{
+"userinformationform":[
+{"Email":"abc@gmail.com",
+"Firstname":"abc",
+"Lastname":"xyz",
+ "Password":"test@123"
+},
+{"Email":"xyz@gmail.com",
+"Firstname":"Pooja",
+"Lastname":"xavier",
+ "Password":"test@456"
+},
+{"Email":"qwerty@gmail.com",
+"Firstname":"qwerty",
+"Lastname":"Kapoor",
+ "Password":"test@789"
+}
+]
+}

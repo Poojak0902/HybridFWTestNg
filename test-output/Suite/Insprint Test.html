@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Insprint Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Insprint Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 20 13:33:40 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10193 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.LoginTest.getstarted()'><b>getstarted</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.enterEmail()'><b>enterEmail</b><br>Test class: com.test.LoginTest<br>Parameters: abc@gmail.com<br/>
+<a href="#Output-1059300256" onClick='toggleBox("Output-1059300256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059300256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059300256">
+Email id is passed >> abc@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.confirmpassword()'><b>confirmpassword</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.validenterfn()'><b>validenterfn</b><br>Test class: com.test.LoginTest<br>Parameters: Pooja<br/>
+<a href="#Output-248483913" onClick='toggleBox("Output-248483913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-248483913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-248483913">
+valid Firstname id is passed >> Pooja<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.enterfn()'><b>enterfn</b><br>Test class: com.test.LoginTest<br>Parameters: abc<br/>
+<a href="#Output-207988207" onClick='toggleBox("Output-207988207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-207988207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-207988207">
+Firstname id is passed >> abc<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.Loginbutton()'><b>Loginbutton</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>5</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.enterpwd()'><b>enterpwd</b><br>Test class: com.test.LoginTest<br>Parameters: test@123<br/>
+<a href="#Output-1401295795" onClick='toggleBox("Output-1401295795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1401295795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1401295795">
+passwrod id is passed >> test@123<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.enterln()'><b>enterln</b><br>Test class: com.test.LoginTest<br>Parameters: xyz<br/>
+<a href="#Output-1195542839" onClick='toggleBox("Output-1195542839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195542839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195542839">
+lastname id is passed >> xyz<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.validenterEmail()'><b>validenterEmail</b><br>Test class: com.test.LoginTest<br>Parameters: pooja@gmail.com<br/>
+<a href="#Output-1409342262" onClick='toggleBox("Output-1409342262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1409342262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1409342262">
+valid Email id is passed >> pooja@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.validenterln()'><b>validenterln</b><br>Test class: com.test.LoginTest<br>Parameters: Kapoor<br/>
+<a href="#Output-1917442783" onClick='toggleBox("Output-1917442783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917442783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917442783">
+valid lastname id is passed >> Kapoor<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.validenterpwd()'><b>validenterpwd</b><br>Test class: com.test.LoginTest<br>Parameters: abc@123<br/>
+<a href="#Output-257718694" onClick='toggleBox("Output-257718694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-257718694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257718694">
+valid passwrod id is passed >> abc@123<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+<tr>
+<td title='com.test.LoginTest.validconfirmpassword()'><b>validconfirmpassword</b><br>Test class: com.test.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.LoginTest@16ec5519</td></tr>
+</table><p>
+</body>
+</html>
